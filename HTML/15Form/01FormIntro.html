@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form In HTML</title>
+  </head>
+  <body>
+    <h1>Form In HTML</h1>
+    <form action="" method="post" enctype="multipart/form-data">
+      <label for="FirstName">FirstName:</label>
+      <input type="text" name="FirstName" placeholder="First Name" />
+      <br />
+      <label for="LastName">LastName:</label>
+      <input type="text" name="LastName" placeholder="Last Name" />
+      <br />
+      <label for="Email">Email:</label>
+      <input type="email" name="Email" placeholder="Email" />
+      <br />
+      <label for="PassWord">PassWord:</label>
+      <input type="password" name="PassWord" placeholder="Password" /><br />
+      <input type="file" name="file" /><br />
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- form => To collect client data and send it to the server
+    action => php / nodejs / python
+    method => get and post
+    get => by default
+    => It shows client data in URL
+    => Bookmarked
+    => limitation 255 
+    => post => secure
+    => file/ multimedia supported
+    => Not Bookmarked
+    => encytype => always use with post method -->
+  </body>
+</html>
