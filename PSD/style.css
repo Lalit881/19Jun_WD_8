@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav {
+  background-color: #b13941;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 30px;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "PT Serif";
+}
