@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#section{
+    background-color: #f8eed3;
+    padding: 40px 0px;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-text{
+    padding: 10px 100px;
+    margin: 0px 40px;
+}
+h2{
+    font-size: 50px;
+color: #b13941;
+font-family: "Yeseva One";
+text-align: center;
+}
+h2+p{
+font-size: 20px;
+color: #b13941;
+font-family: "PT Serif";
+text-align: center;
+padding: 20px 100px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 80px;
+    /* flex-wrap: wrap; */
+}
+.col-33{
+    width: 33.33%;
+    /* width: 100%; */
+    filter: drop-shadow(11.437px 17.612px 12px rgba(12,13,12,0.1));
+    background-color: #ffffff;
+    position: relative;
+}
+div[class*=box]{
+    width: 120px;
+    height: 40px;
+    position: absolute;
+    background-color: #f8eed3;
+
+}
+.box-1{
+    top: 260px;
+    left: 120px;
+
+}
+h3{
+    font-size: 20px;
+color: #b13941;
+font-weight: 700;
+font-family: "PT Serif";
+text-align: center;
+border: 2px solid #b13941;
+margin: 5px;
+}
+
+.text>p{
+font-size: 15px;
+color: #555555;
+font-family: "PT Serif";
+text-align: center;
+padding: 10px 52px;
+text-align: center;
+}
+button{
+    background-color: #b13941;
+    font-size: 20px;
+color: #f8eed3;
+font-weight: 700;
+font-family: "EB Garamond";
+text-align: center;
+padding: 5px 20px;
+margin: 10px 0px;
+}
+img{
+    width: 100%;
+}
+.text{
+    padding: 30px 0px;
+}
+
+ /* // Large devices (desktops, 992px and up) */
+
+ @media (max-width: 992px) {
+       
+    .col-33 {
+      width: 33.33%;
+    }
+    
+  }
+
+
+    /* // Medium devices (tablets, 768px and up) */
+
+    @media (max-width: 768px) {
+        
+        .col-33 {
+          width: 50%;
+        }
+        
+      }
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+    h2{
+        font-size: 40px;
+        text-align: center;
+    }
+    h2+p{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0px 30px;
+        margin: 0px;
+
+    }
+    .main-text{
+        padding: 0px;
+        margin: 0px ;
+    }
+    .col-33 {
+      width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .box-1{
+        top: 250px;
+        left: 120px;
+        position: fixed;
+    
+    }
+  }
+
+    
