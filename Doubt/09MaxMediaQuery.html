@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Max Media Query</title>
+    <style>
+
+      body {
+        background-color: teal;
+        color: aliceblue;
+      }
+      h1::after {
+        content: " Chetan";
+      }
+
+
+
+
+      /* // XX-Large devices (larger desktops, 1400px and up) */
+      @media (max-width: 1400px) {
+        body {
+          background-color: rgb(117, 0, 128);
+        }
+        h1::after {
+          content: " 1400px";
+        }
+      }
+
+
+        /* // X-Large devices (large desktops, 1200px and up) */
+        @media (max-width: 1200px) {
+        body {
+          background-color: rgb(9, 0, 128);
+        }
+        h1::after {
+          content: " 1200px";
+        }
+      }
+
+
+      /* // Large devices (desktops, 992px and up) */
+      @media (max-width: 992px) {
+        body {
+          background-color: rgb(214, 3, 35);
+        }
+        h1::after {
+          content: " 992px";
+        }
+      }
+
+
+        /* // Medium devices (tablets, 768px and up) */
+        @media (max-width: 768px) {
+        body {
+          background-color: rgb(128, 126, 0);
+        }
+        h1::after {
+          content: " 768px";
+        }
+      }
+
+
+      /* // X-Small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap */
+
+      /* // Small devices (landscape phones, 576px and up) */
+      @media (max-width: 576px) {
+        body {
+          background-color: rgb(128, 2, 0);
+        }
+        h1::after {
+          content: " 576px";
+        }
+      }
+
+    
+      
+
+    
+      
+    </style>
+  </head>
+  <body>
+    <h1>Namaste</h1>
+  </body>
+</html>
